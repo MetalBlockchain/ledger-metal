@@ -20,8 +20,8 @@ pub const NETWORK_ID_FUJI: u32 = 5;
 pub const NETWORK_ID_LOCAL: u32 = 12345;
 
 // hrp
-pub const HRP_MAINNET: &str = "avax";
-pub const HRP_TESTNET: &str = "fuji";
+pub const HRP_MAINNET: &str = "metal";
+pub const HRP_TESTNET: &str = "tahoe";
 pub const HRP_LOCAL: &str = "local";
 
 pub const TRANSFER_TX: u32 = 0;

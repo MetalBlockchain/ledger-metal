@@ -132,7 +132,7 @@ impl<'b> DisplayableItem for Validator<'b> {
                 handle_ui_message(time.as_slice(), message, page)
             }
             3 => {
-                let label = pic_str!(b"Total stake(AVAX)");
+                let label = pic_str!(b"Total stake(METAL)");
                 title[..label.len()].copy_from_slice(label);
 
                 let mut buffer = [0; u64::FORMATTED_SIZE + 2];

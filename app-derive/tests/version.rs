@@ -16,7 +16,7 @@
 
 //! Test the version macro
 
-use avalanche_app_derive::version;
+use metal_app_derive::version;
 
 version!("../app/Makefile.version");
 

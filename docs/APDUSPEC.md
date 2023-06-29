@@ -1,11 +1,11 @@
-# Avalanche App
+# Metal Blockchain App
 
 ## General structure
 
-The app provides support for 2 sets of instructions, the Avalanche set and the Ethereum set.
+The app provides support for 2 sets of instructions, the Metal set and the Ethereum set.
 The Ethereum set is aimed at providing compatibility with EVM wallets, 
 as such the API is the same as the Ethereum App, with the CLA being 0xE0,
-whilst the Avalanche app normally uses 0x80 for the CLA.
+whilst the Metal app normally uses 0x80 for the CLA.
 
 The general structure of commands and responses is as follows:
 
@@ -96,7 +96,7 @@ The general structure of commands and responses is as follows:
 
 #### Command
 
-If the HRPLen is 0, then the default HRP of 'avax' is used.
+If the HRPLen is 0, then the default HRP of 'metal' is used.
 If the ChainIDLen is 0, then the default ChainID of 32 zero bytes (P-Chain's)
 
 | Field      | Type              | Content                   | Expected                 |
@@ -132,7 +132,7 @@ If the ChainIDLen is 0, then the default ChainID of 32 zero bytes (P-Chain's)
 
 #### Command
 
-If the HRPLen is 0, then the default HRP of 'avax' is used.
+If the HRPLen is 0, then the default HRP of 'metal' is used.
 If the ChainIDLen is 0, then the default ChainID of 32 zero bytes (P-Chain's)
 
 | Field      | Type              | Content                   | Expected                 |
@@ -285,8 +285,8 @@ storing the confirmed hash for signing later via [INS_SIGN_HASH], skipping the "
 
 ## INS_SIGN_MSG
 
-Used to sign an avax personal message. 
-The payload should include the header, please see the avax docs for more information. 
+Used to sign a metal personal message. 
+The payload should include the header, please see the metal docs for more information. 
 Uses the protocol to upload a large payload with multiple messages.
 
 #### Command

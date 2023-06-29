@@ -155,7 +155,7 @@ impl EthTransaction__Type {
     }
 }
 
-#[avalanche_app_derive::enum_init]
+#[metal_app_derive::enum_init]
 #[derive(Clone, Copy, PartialEq, Eq)]
 // DO not change the representation
 // as it would cause unalignment issues

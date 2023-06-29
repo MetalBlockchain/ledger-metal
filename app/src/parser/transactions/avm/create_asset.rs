@@ -162,7 +162,7 @@ impl<'b> DisplayableItem for CreateAssetTx<'b> {
             }
 
             4 => {
-                let label = pic_str!(b"Fee(AVAX)");
+                let label = pic_str!(b"Fee(METAL)");
                 title[..label.len()].copy_from_slice(label);
 
                 let fee = self.fee().map_err(|_| ViewError::Unknown)?;

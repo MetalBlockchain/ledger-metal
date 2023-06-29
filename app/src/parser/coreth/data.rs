@@ -39,7 +39,7 @@ pub use asset_call::AssetCall;
 pub use contract_call::ContractCall;
 pub use deploy::Deploy;
 
-#[avalanche_app_derive::enum_init]
+#[metal_app_derive::enum_init]
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[cfg_attr(any(test, feature = "derive-debug"), derive(Debug))]
 pub enum EthData<'b> {

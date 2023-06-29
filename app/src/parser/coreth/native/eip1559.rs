@@ -180,7 +180,7 @@ impl<'b> Eip1559<'b> {
                 let label = pic_str!(b"Transfer");
                 title[..label.len()].copy_from_slice(label);
 
-                let curr = pic_str!(b"AVAX "!);
+                let curr = pic_str!(b"METAL "!);
                 let (prefix, message) = message.split_at_mut(curr.len());
                 prefix.copy_from_slice(curr);
 
@@ -293,7 +293,7 @@ impl<'b> Eip1559<'b> {
                 let label = pic_str!(b"Transfer");
                 title[..label.len()].copy_from_slice(label);
 
-                let curr = pic_str!(b"AVAX "!);
+                let curr = pic_str!(b"METAL "!);
                 let (prefix, message) = message.split_at_mut(curr.len());
                 prefix.copy_from_slice(curr);
 

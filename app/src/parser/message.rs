@@ -160,7 +160,7 @@ impl<'b> FromBytes<'b> for AvaxMessage<'b> {
         // Avax message structure: Header + 4-byte msg_len + msg
         // according to:
         // https://docs.avax.network/community/tutorials-contest/2021/red-dev-sig-verify-tutorial#1-hash-the-message
-        let header = pic_str!(b"\x1AAvalanche Signed Message:\n"!);
+        let header = pic_str!(b"\x1AMetal Signed Message:\n"!);
 
         let (rem, _) = tag(header)(input)?;
 
@@ -191,7 +191,7 @@ impl<'b> DisplayableItem for AvaxMessage<'b> {
             0 => {
                 let label = pic_str!(b"Sign");
                 title[..label.len()].copy_from_slice(label);
-                let content = pic_str!("Avax Message");
+                let content = pic_str!("Metal Message");
                 handle_ui_message(content.as_bytes(), message, page)
             }
             x @ 1.. => {
@@ -206,8 +206,8 @@ impl<'b> DisplayableItem for AvaxMessage<'b> {
 mod tests {
     use super::*;
 
-    const DATA: &str = "An AvalancheMessage to sign";
-    const HEADER: &str = "\x1AAvalanche Signed Message:\n";
+    const DATA: &str = "A MetalMessage to sign";
+    const HEADER: &str = "\x1AMetal Signed Message:\n";
 
     fn construct_msg(msg: &str) -> std::vec::Vec<u8> {
         let mut vec = std::vec![];

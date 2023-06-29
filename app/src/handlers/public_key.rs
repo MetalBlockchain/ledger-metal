@@ -38,9 +38,9 @@ pub struct GetPublicKey;
 impl GetPublicKey {
     pub const DEFAULT_CHAIN_ID: &'static [u8; 32] = DEFAULT_CHAIN_ID;
 
-    pub const DEFAULT_HRP: &'static [u8; 4] = b"avax";
+    pub const DEFAULT_HRP: &'static [u8; 5] = b"metal";
 
-    pub fn default_hrp() -> &'static [u8; 4] {
+    pub fn default_hrp() -> &'static [u8; 5] {
         PIC::new(Self::DEFAULT_HRP).into_inner()
     }
 

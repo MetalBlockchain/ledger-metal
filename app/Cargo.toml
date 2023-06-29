@@ -1,5 +1,5 @@
 [package]
-name = "avalanche-app"
+name = "metal-app"
 version = "0.1.0"
 edition.workspace = true
 authors.workspace = true
@@ -38,7 +38,7 @@ zemu-sys = { workspace = true }
 no-std-compat = { version = "0.4" }
 cfg-if = "1.0.0"
 
-avalanche-app-derive = { path = "../app-derive" }
+metal-app-derive = { path = "../app-derive" }
 arrayvec = { version = "0.7", default-features = false }
 arrayref = "0.3.6"
 nom = { version = "7.1.1", default-features = false}

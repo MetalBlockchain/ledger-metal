@@ -103,7 +103,7 @@ impl<'b> DisplayableItem for CreateSubnetTx<'b> {
         match item_n {
             x @ 0.. if x < owners_items => self.owners.render_item(item_n, title, message, page),
             x if x == owners_items => {
-                let label = pic_str!(b"Fee(AVAX)");
+                let label = pic_str!(b"Fee(METAL)");
                 title[..label.len()].copy_from_slice(label);
 
                 let mut buffer = [0; u64::FORMATTED_SIZE_DECIMAL + 2];

@@ -301,7 +301,7 @@ impl<'b> FromBytes<'b> for ApprovalForAll<'b> {
 /// `public view` methods are excluded as those don't make sense to be called via a transaction
 #[derive(Copy, Clone, PartialEq, Eq)]
 #[cfg_attr(any(test, feature = "derive-debug"), derive(Debug))]
-#[avalanche_app_derive::enum_init]
+#[metal_app_derive::enum_init]
 pub enum ERC721<'b> {
     TransferFrom(TransferFrom<'b>),
     SafeTransferFrom(SafeTransferFrom<'b>),

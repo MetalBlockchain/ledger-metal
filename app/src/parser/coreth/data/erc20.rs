@@ -50,7 +50,7 @@ function allowance(address _owner, address _spender) public view returns (uint25
 */
 /// # Exclusions
 /// `public view` methods are excluded as those don't make sense to be called via a transaction
-#[avalanche_app_derive::enum_init]
+#[metal_app_derive::enum_init]
 #[derive(Copy, Clone, PartialEq, Eq)]
 #[cfg_attr(any(test, feature = "derive-debug"), derive(Debug))]
 pub enum ERC20<'b> {

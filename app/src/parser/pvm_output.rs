@@ -34,7 +34,7 @@ use zemu_sys::ViewError;
 // buffer on which we write other information so that we need
 // its length to initialize such buffer and having the length defined as a constant and the
 // literal inlined can lead to len mismatch which can cause overlapping.
-const AVAX_UNTIL: &[u8; 12] = b" AVAX until ";
+const AVAX_UNTIL: &[u8; 13] = b" METAL until ";
 
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[repr(C)]

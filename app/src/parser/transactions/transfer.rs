@@ -169,7 +169,7 @@ impl<'b> DisplayableItem for Transfer<'b> {
             x @ 0.. if x < outputs_items => self.render_outputs(x, title, message, page),
 
             x if x == outputs_items => {
-                let t = pic_str!(b"Fee(AVAX)");
+                let t = pic_str!(b"Fee(METAL)");
                 title[..t.len()].copy_from_slice(t);
 
                 let fee = self.fee().map_err(|_| ViewError::Unknown)?;

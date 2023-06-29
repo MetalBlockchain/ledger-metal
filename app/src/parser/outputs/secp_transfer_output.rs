@@ -26,7 +26,7 @@ use crate::{
     parser::{nano_avax_to_fp_str, Address, DisplayableItem, FromBytes, ParserError, ADDRESS_LEN},
 };
 
-const AVAX_TO_LEN: usize = 9; //b" AVAX to "
+const AVAX_TO_LEN: usize = 10; //b" METAL to "
 
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[cfg_attr(test, derive(Debug))]
@@ -117,7 +117,7 @@ impl<'a> DisplayableItem for SECPTransferOutput<'a> {
                 let title_content = pic_str!(b"Amount");
                 title[..title_content.len()].copy_from_slice(title_content);
 
-                let avax_to = pic_str!(b" AVAX to ");
+                let avax_to = pic_str!(b" METAL to ");
 
                 // write the amount
                 let len = nano_avax_to_fp_str(self.amount, &mut buffer[..])

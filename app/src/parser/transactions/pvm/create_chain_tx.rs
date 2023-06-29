@@ -181,7 +181,7 @@ impl<'b> DisplayableItem for CreateChainTx<'b> {
                 handle_ui_message(&hex_buf, message, page)
             }
             5 => {
-                let label = pic_str!(b"Fee(AVAX)");
+                let label = pic_str!(b"Fee(METAL)");
                 title[..label.len()].copy_from_slice(label);
 
                 let mut buffer = [0; u64::FORMATTED_SIZE_DECIMAL + 2];
