@@ -5,8 +5,8 @@ input_file: app/src/parser/testvectors/x_import_from_p.json
 ---
 [
     "ImportTx": "Sending",
-    "Amount": "0.000012345 AVAX to ",
-    "Address": "fuji1cv6yz28qvqfgah34yw3y53su39p6kzzehw5pj3",
+    "Amount": "0.000012345 METAL to ",
+    "Address": "tahoe1cv6yz28qvqfgah34yw3y53su39p6kzzes5cjy5",
     "From ": "P Chain",
-    "Fee(AVAX)": "0.246901233",
+    "Fee(METAL)": "0.246901233",
 ]
