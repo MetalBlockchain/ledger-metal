@@ -431,7 +431,7 @@ mod tests {
 
     #[test]
     pub fn x_chain() {
-        let id = hex::decode("ab68eb1ee142a05cfe768c36e11f0b596db5a3c6c77aabe665dad9e638ca94f7")
+        let id = hex::decode("2ff6ebb90805f00422fb0321251b310c33d6dfbd2f37c84438703eca17959b3f")
             .unwrap();
         let chain_code = array_ref![id, 0, 32];
         test_chain_alias(Some("X"), Some(chain_code))
@@ -439,7 +439,7 @@ mod tests {
 
     #[test]
     pub fn c_chain() {
-        let id = hex::decode("7fc93d85c6d62c5b2ac0b519c87010ea5294012d1e407030d6acd0021cac10d5")
+        let id = hex::decode("73e1f004b3fa993c619d0d97fc82736cf9349fb170d8d245154048a5e68e4b1a")
             .unwrap();
         let chain_code = array_ref![id, 0, 32];
         test_chain_alias(Some("C"), Some(chain_code))
