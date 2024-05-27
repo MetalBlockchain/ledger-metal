@@ -16,6 +16,10 @@
     "chainID": "2EwQEpAoKi3b8GgAhKGprkGiJYFduE9bbbEANMWioSWXsb6ZQz"
   },
   {
+    "alias": "X",
+    "chainID": "qzfF3A11KzpcHkkqznEyQgupQrCNS6WV6fTUTwZpEKqhj1QE7"
+  },
+  {
     "alias": "C",
     "chainID": "28fJD1hMz2PSRJKJt7YT41urTPR37rUNUcdeJ8daoiwP6DGnAR"
   },
@@ -26,5 +30,9 @@
   {
     "alias": "C",
     "chainID": "2CA6j5zYzasynPsFeNoqWkmTCt3VScMvXUZHbfDJ8k3oGzAPtU"
+  },
+  {
+    "alias": "C",
+    "chainID": "VctwH3nkmztWbkdNXbuo6eCYndsUuemtM9ZFmEUZ5QpA1Fu8G"
   }
 ]
