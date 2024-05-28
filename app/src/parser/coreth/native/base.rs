@@ -32,7 +32,7 @@ use crate::{
     utils::ApduPanic,
 };
 
-use avalanche_app_derive::match_ranges;
+use metal_app_derive::match_ranges;
 
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[cfg_attr(test, derive(Debug))]

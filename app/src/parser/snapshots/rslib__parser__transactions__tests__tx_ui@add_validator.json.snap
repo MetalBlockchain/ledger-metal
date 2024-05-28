@@ -11,7 +11,7 @@ input_file: app/src/parser/testvectors/add_validator.json
     "Validator": "NodeID-MFrZFVCXPv5iCn6M9K6XduxGTYp891xXZ",
     "Start time": "2021-03-15 20:05:27 UTC",
     "End time": "2022-03-15 19:55:27 UTC",
-    "Total stake(METAL)": "1",
+    "Stake(METAL)": "1",
     "Stake": "1 METAL to ",
     "Address": "tahoe1asxdpfsmah8wqr6m8ymfwse5e4pa9fwntxpghk",
     "Funds locked": "1 METAL until 2021-05-31 21:28:00 UTC",

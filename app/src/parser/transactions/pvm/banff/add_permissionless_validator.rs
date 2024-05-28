@@ -29,7 +29,7 @@ use crate::{
     },
 };
 
-use avalanche_app_derive::match_ranges;
+use metal_app_derive::match_ranges;
 
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[repr(C)]

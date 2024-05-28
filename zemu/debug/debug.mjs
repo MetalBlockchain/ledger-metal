@@ -13,7 +13,7 @@ const MODELS = {
   stax: { name: 'stax', prefix: 'ST', path: path.resolve('../build/output/app_fs.elf') }
 }
 
-const MODEL = MODELS["stax"];
+const MODEL = MODELS["nanos"];
 const CLA = 0x80
 const APP_DERIVATION = "m/44'/9000'/0'/0/0"
 const ETH_DERIVATION = "m/44'/60'/0'/0/0"
@@ -78,7 +78,7 @@ async function callTestFunction(sim, app) {
 async function main() {
   await beforeStart()
 
-  let model = MODELS["stax"];
+  let model = MODELS["nanos"];
   let sim_options = {
     ...DEFAULT_START_OPTIONS,
     logging: true,

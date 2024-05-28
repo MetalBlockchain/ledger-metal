@@ -29,7 +29,7 @@ use crate::{
     },
 };
 
-use avalanche_app_derive::match_ranges;
+use metal_app_derive::match_ranges;
 
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[repr(C)]
@@ -387,7 +387,7 @@ impl<'b> AddPermissionlessDelegatorTx<'b> {
                     self.render_rewards_to(x as usize, title, message, page)
                 }
                 until 1 => {
-                    let label = pic_str!(b"Fee(AVAX)");
+                    let label = pic_str!(b"Fee(METAL)");
                     title[..label.len()].copy_from_slice(label);
 
                     let fee = self.fee().map_err(|_| ViewError::Unknown)?;

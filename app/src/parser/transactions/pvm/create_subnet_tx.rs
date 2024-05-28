@@ -13,7 +13,7 @@
 *  See the License for the specific language governing permissions and
 *  limitations under the License.
 ********************************************************************************/
-use avalanche_app_derive::match_ranges;
+use metal_app_derive::match_ranges;
 use core::{mem::MaybeUninit, ptr::addr_of_mut};
 use nom::bytes::complete::tag;
 use zemu_sys::ViewError;

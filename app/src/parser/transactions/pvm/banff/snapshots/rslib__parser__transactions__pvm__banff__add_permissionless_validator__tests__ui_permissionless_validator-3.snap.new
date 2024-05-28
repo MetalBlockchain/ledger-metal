@@ -1,5 +1,6 @@
 ---
 source: app/src/parser/transactions/pvm/banff/add_permissionless_validator.rs
+assertion_line: 616
 expression: reduced
 ---
 [
@@ -9,10 +10,10 @@ expression: reduced
     "Start time": "1970-01-01 03:25:45 UTC",
     "End time": "1970-01-01 03:25:46 UTC",
     "Stake(METAL)": "0.000000001",
-    "Stake": "0.000000001 AVAX to ",
-    "Address": "avax1g32kvaugnx4tk3z4vemc3xd2hdz92enh972wxr",
-    "Valida rewards to": "avax1g32kvaugnx4tk3z4vemc3xd2hdz92enh972wxr",
-    "Delega rewards to": "avax1g32kvaugnx4tk3z4vemc3xd2hdz92enh972wxr",
+    "Stake": "0.000000001 METAL to ",
+    "Address": "metal1g32kvaugnx4tk3z4vemc3xd2hdz92enhqaj6ex",
+    "Valida rewards to": "metal1g32kvaugnx4tk3z4vemc3xd2hdz92enhqaj6ex",
+    "Delega rewards to": "metal1g32kvaugnx4tk3z4vemc3xd2hdz92enhqaj6ex",
     "Delegate fee(%)": "100",
     "Fee(AVAX)": "0.001",
 ]

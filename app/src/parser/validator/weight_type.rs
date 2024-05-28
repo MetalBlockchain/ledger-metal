@@ -60,7 +60,7 @@ impl DisplayableItem for Stake {
 
         match item_n {
             0 => {
-                let label = pic_str!(b"Total stake(AVAX)");
+                let label = pic_str!(b"Stake(METAL)");
                 title[..label.len()].copy_from_slice(label);
 
                 let mut buffer = [0; u64::FORMATTED_SIZE_DECIMAL + 2];

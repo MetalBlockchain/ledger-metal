@@ -71,7 +71,7 @@ impl<'b> FromBytes<'b> for ProofOfPossession<'b> {
     }
 }
 
-#[avalanche_app_derive::enum_init]
+#[metal_app_derive::enum_init]
 #[derive(Clone, Copy, PartialEq, Eq)]
 #[repr(C)]
 #[cfg_attr(test, derive(Debug))]
