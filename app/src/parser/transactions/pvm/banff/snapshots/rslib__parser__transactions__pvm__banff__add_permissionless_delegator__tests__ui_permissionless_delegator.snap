@@ -9,8 +9,8 @@ expression: reduced
     "Start time": "2022-12-12 17:15:03 UTC",
     "End time": "2023-01-11 17:15:03 UTC",
     "Stake(METAL)": "2000",
-    "Stake": "2000 AVAX to ",
+    "Stake": "2000 METAL to ",
     "Address": "local1x0h0l3j8sh8emq88wvwe7v0k00grch8sh4entf",
     "Rewards to": "local1wte7hxh2lq5rqywwdephlhkdvh4var6jtuu57r",
-    "Fee(AVAX)": "0",
+    "Fee(METAL)": "0",
 ]

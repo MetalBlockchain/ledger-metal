@@ -436,7 +436,7 @@ impl<'b> AddPermissionlessValidatorTx<'b> {
                     handle_ui_message(buffer, message, page)
                 },
                 until 1 => {
-                    let label = pic_str!(b"Fee(AVAX)");
+                    let label = pic_str!(b"Fee(METAL)");
                     title[..label.len()].copy_from_slice(label);
 
                     let fee = self.fee().map_err(|_| ViewError::Unknown)?;

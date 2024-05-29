@@ -9,8 +9,8 @@ expression: reduced
     "Start time": "1970-01-01 03:25:45 UTC",
     "End time": "1970-01-01 03:25:46 UTC",
     "Stake(METAL)": "0.000000001",
-    "Stake": "0.000000001 AVAX to ",
-    "Address": "avax1g32kvaugnx4tk3z4vemc3xd2hdz92enh972wxr",
-    "Rewards to": "avax1g32kvaugnx4tk3z4vemc3xd2hdz92enh972wxr",
-    "Fee(AVAX)": "0.001",
+    "Stake": "0.000000001 METAL to ",
+    "Address": "metal1g32kvaugnx4tk3z4vemc3xd2hdz92enhqaj6ex",
+    "Rewards to": "metal1g32kvaugnx4tk3z4vemc3xd2hdz92enhqaj6ex",
+    "Fee(METAL)": "0.001",
 ]

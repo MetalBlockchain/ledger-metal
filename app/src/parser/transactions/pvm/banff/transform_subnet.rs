@@ -314,7 +314,7 @@ impl<'b> DisplayableItem for TransformSubnetTx<'b> {
             1 => self.subnet_id.render_item(0, title, message, page),
             2 => self.asset_id.render_item(0, title, message, page),
             3 => {
-                let label = pic_str!(b"Fee(AVAX)");
+                let label = pic_str!(b"Fee(METAL)");
                 title[..label.len()].copy_from_slice(label);
 
                 let fee = self.fee().map_err(|_| ViewError::Unknown)?;
